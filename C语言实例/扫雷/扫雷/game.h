@@ -3,6 +3,7 @@
 
 #define ROW 9
 #define COL 9
+#define EASY_COUNT 10
 
 #define ROWS ROW+2
 #define COLS COL+2
