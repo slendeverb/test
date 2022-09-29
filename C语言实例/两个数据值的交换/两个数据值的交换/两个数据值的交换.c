@@ -10,8 +10,8 @@ int main()
 {
 	int a = 10;
 	int b = 20;
-	printf("更换前：a=%d,b=%d\n", a, b);
+	printf("浜ゆ崲鍓嶏細a=%d,b=%d\n", a, b);
 	Swap(&a, &b);
-	printf("更换后：a=%d,b=%d\n", a, b);
+	printf("浜ゆ崲鍚庯細a=%d,b=%d\n", a, b);
 	return 0;
 }
