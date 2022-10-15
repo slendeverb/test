@@ -9,6 +9,6 @@ int main()
 		m = n;
 		n = t;
 	}
-	printf("最大公约数:%d\n", t);
+	printf("最大公约数:%d\n", n);
 	return 0;
 }

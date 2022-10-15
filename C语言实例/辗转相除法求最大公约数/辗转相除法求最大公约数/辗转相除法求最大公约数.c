@@ -9,6 +9,7 @@ int main()
 	scanf("%d%d", &m, &n);
 	int max = m > n ? m : n;
 	int min = m > n ? n : m;
+	t = min;
 	while (max % min)
 	{
 		t = max % min;
