@@ -68,9 +68,9 @@ int main()
     int sz_s = sizeof(s) / sizeof(s[0]);
     struct Stu s[3] = { {"zhangsan",30},{"lisi",35},{"wangwu",25} };
     bubble_sort(arr, sz_arr, sizeof(arr[0]), cmp_int);
-    bubble_sort(arr, sz_s, sizeof(s[0]), sort_by_age);
-    bubble_sort(arr, sz_s, sizeof(s[0]), sort_by_name);
-    Print_int(arr, sz_arr);
+    bubble_sort(s, sz_s, sizeof(s[0]), sort_by_age);
+    bubble_sort(s, sz_s, sizeof(s[0]), sort_by_name);
+    Print_int(arr,sz_arr);
 
     return 0;
 }
